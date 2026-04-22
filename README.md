@@ -16,14 +16,12 @@ The project built without errors, using 26.7% of flash and 15.3% of RAM. The out
 
 `pio run --target upload`
 
-Change WiFi credentials if you want to serve on exising network:
-main.cpp:
+Change WiFi credentials if you want to serve on exising network in main.cpp:
 
 `const char *WIFI_SSID = "PUT YOUR WIFI SSID HERE";`
 
 `const char *WIFI_PASS = "PUT YOUR WIFI PASSWORD HERE";`
 
-Otherwise it will work as access point with this credentials:
-main.cpp:
+Otherwise it will work as access point with this credentials in main.cpp:
 
 `WiFi.softAP("ESP32CAM", "12345678");`
