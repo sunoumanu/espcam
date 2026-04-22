@@ -26,4 +26,4 @@ main.cpp:
 Otherwise it will work as access point with this credentials:
 main.cpp:
 
-`'WiFi.softAP("ESP32CAM", "12345678");'`
+`WiFi.softAP("ESP32CAM", "12345678");`
